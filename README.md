@@ -1,2 +1,10 @@
-# APCSAFinal
-~~Final project for AP Computer Science A.~~ I thought this was going to be for AP CS A at the time since that was a java class, but turns out it'll be for IDSM instead. I decided creating a 3d shooter from lwjgl might make a fun project.
+# CTF Arena
+A small game built in Java and OpenGL (LWJGL)
+
+### Features
+- Basic PBR rendering (a la learnopengl.com, no IBL) with lightmaps for global illumination
+- Clustered forward renderer for efficiency with many lights
+- Physics based on a GJK+EPA contact detector and a sequential impulse solver
+- UDP networking with a reliability layer on top, single server to multiple clients architecture
+- Skeletal animation
+- A blender addon for making and exporting levels as well as baking lightmaps for them
